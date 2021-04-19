@@ -1,9 +1,10 @@
 const express = require('express');
+const methodOverride = require('method-override');
 const path = require('path');
 const checkListRouter = require('./src/routes/checklist');
 const taskRouter = require('./src/routes/task');
 const rootRouter = require('./src/routes/index');
-const methodOverride = require('method-override');
+//import Moment from 'moment';
 
 require('./config/database');
 
@@ -21,6 +22,11 @@ app.use('/', rootRouter);
 app.use('/checklist', checkListRouter);
 app.use('/checklist', taskRouter.checklistDepend);
 app.use('/tasks', taskRouter.simple);
+
+ var moment = require('moment');
+var shortDateFormat = "DD/MM"; // this is just an example of storing a date format once so you can change it in one place and have it propagate
+app.locals.moment = moment; // this makes moment available as a variable in every EJS page
+app.locals.shortDateFormat = shortDateFormat; 
 
 
 app.listen(3000, () =>{
