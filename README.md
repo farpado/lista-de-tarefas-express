@@ -7,19 +7,18 @@ Uma lista de Tarefas Simples
 </h1>
 
 # Indice
-
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-ultilizadas)
-- [Como baixar o projeto](#-sobre)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
 
 ---
-## 🔥Sobre
+## 🔥 Sobre
 
-O projeto **URNA** é um projeto baseado em uma Urna eletrônica, com o intuito de praticar JS.
+O projeto **LISTA DE TAREFAS** é um projeto que adiciona, deletar e atualiza suas tarefas, ao criar ele mostra sua data de criação, com o intuito de praticar JS.
 
 ---
 
-## 💻Tecnologias Ultilizadas
+## 💻 Tecnologias Ultilizadas
 
 O projeto foi desenvolvido com as seguintes tecnologias
 
@@ -32,7 +31,7 @@ O projeto foi desenvolvido com as seguintes tecnologias
 
 ---
 
-## 🎮Como baixar o projeto
+## 🎮 Como baixar o projeto
 
 ```bash
 
